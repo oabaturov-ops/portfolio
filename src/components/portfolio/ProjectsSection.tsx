@@ -34,20 +34,15 @@ const projects = [
     titleKey: "projects.p5.title",
     descKey: "projects.p5.desc",
     tags: ["Express.js", "Supabase", "Railway"],
-    url: "#",
+    url: "https://furshet-159.ru",
   },
   {
     titleKey: "projects.p6.title",
     descKey: "projects.p6.desc",
     tags: ["Tauri", "Rust", "JavaScript"],
-    url: "#",
+    url: "https://abaturministry.org/",
   },
-  {
-    titleKey: "projects.p7.title",
-    descKey: "projects.p7.desc",
-    tags: ["Word Press"],
-    url: "https://furshet-159.ru",
-  },
+  
 ];
 
 export default function ProjectsSection() {
@@ -68,7 +63,7 @@ export default function ProjectsSection() {
   const project = projects[current];
 
   return (
-    <section id="projects" className="py-36 px-6">
+    <section id="projects" className="py-40 px-6">
       <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
