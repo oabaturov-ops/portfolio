@@ -68,7 +68,7 @@ export default function ProjectsSection() {
   const project = projects[current];
 
   return (
-    <section id="projects" className="py-32 px-6">
+    <section id="projects" className="py-36 px-6">
       <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
