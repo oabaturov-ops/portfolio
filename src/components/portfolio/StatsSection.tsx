@@ -33,7 +33,7 @@ function Counter({ target, suffix }: { target: number; suffix: string }) {
 export default function StatsSection() {
   const { t } = useLang();
   return (
-    <section className="py-20 px-6">
+    <section className="py-30 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
         {stats.map((s, i) => (
           <motion.div key={s.key} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}

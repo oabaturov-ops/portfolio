@@ -8,7 +8,7 @@ export default function ContactSection() {
   const { t } = useLang();
 
   return (
-    <section id="contact" className="py-24 px-6">
+    <section id="contact" className="py-30 px-6">
       <div className="max-w-3xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
